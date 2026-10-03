@@ -4,7 +4,6 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     nodes = [
-        ('waiter_hal', 'arduino_bridge'),
         ('waiter_hal', 'audio_io'),
         ('waiter_external_functionalities', 'app_bridge'),
         ('waiter_external_functionalities', 'power_manager'),

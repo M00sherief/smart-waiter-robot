@@ -25,7 +25,6 @@ setup(
     entry_points={
         'console_scripts': [
             'audio_io = waiter_hal.audio_io:main',
-            'arduino_bridge = waiter_hal.arduino_bridge:main',
         ],
     },
 )
