@@ -1,0 +1,24 @@
+# ROS 2 / colcon generated
+build/
+install/
+log/
+
+# Python generated
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Secrets (never commit)
+.env
+*.key
+
+# Recorded robot data (large)
+*.db3
+*.mcap
+rosbag2_*/
+
+# Editor files
+.vscode/
+*.swp
+*~

@@ -1,4 +1,0 @@
-[console_scripts]
-amcl = waiter_slam.amcl:main
-map_server = waiter_slam.map_server:main
-slam_toolbox = waiter_slam.slam_toolbox:main

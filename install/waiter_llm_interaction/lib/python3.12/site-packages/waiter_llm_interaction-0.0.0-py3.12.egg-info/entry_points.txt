@@ -1,6 +1,0 @@
-[console_scripts]
-llm = waiter_llm_interaction.llm:main
-mission_manager = waiter_llm_interaction.mission_manager:main
-order_manager = waiter_llm_interaction.order_manager:main
-speech_to_text = waiter_llm_interaction.speech_to_text:main
-text_to_speech = waiter_llm_interaction.text_to_speech:main

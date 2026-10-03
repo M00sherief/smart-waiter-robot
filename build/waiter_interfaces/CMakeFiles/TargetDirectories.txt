@@ -1,9 +1,0 @@
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/uninstall.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/waiter_interfaces_uninstall.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/test.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/edit_cache.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/rebuild_cache.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/list_install_components.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/install.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/install/local.dir
-/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces/CMakeFiles/install/strip.dir
