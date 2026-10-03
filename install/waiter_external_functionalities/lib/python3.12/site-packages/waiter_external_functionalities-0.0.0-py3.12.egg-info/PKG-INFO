@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: waiter-external-functionalities
+Version: 0.0.0
+Summary: Smart Autonomous Waiter robot package
+Maintainer: mohamed
+Maintainer-email: sheriefmohamed539@gmail.com
+License: Apache-2.0
+Provides-Extra: test

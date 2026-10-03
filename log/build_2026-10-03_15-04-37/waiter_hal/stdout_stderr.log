@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/waiter_hal/waiter_hal.egg-info
+writing ../../build/waiter_hal/waiter_hal.egg-info/PKG-INFO
+writing dependency_links to ../../build/waiter_hal/waiter_hal.egg-info/dependency_links.txt
+writing entry points to ../../build/waiter_hal/waiter_hal.egg-info/entry_points.txt
+writing requirements to ../../build/waiter_hal/waiter_hal.egg-info/requires.txt
+writing top-level names to ../../build/waiter_hal/waiter_hal.egg-info/top_level.txt
+writing manifest file '../../build/waiter_hal/waiter_hal.egg-info/SOURCES.txt'
+reading manifest file '../../build/waiter_hal/waiter_hal.egg-info/SOURCES.txt'
+writing manifest file '../../build/waiter_hal/waiter_hal.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build
+creating /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib
+creating /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal
+copying waiter_hal/imu_data.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal
+copying waiter_hal/__init__.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal
+copying waiter_hal/battery_monitor.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal
+copying waiter_hal/audio_io.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal
+copying waiter_hal/arduino_bridge.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal
+copying waiter_hal/camera.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal
+running install
+running install_lib
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal/imu_data.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal/__init__.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal/battery_monitor.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal/audio_io.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal/arduino_bridge.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build/lib/waiter_hal/camera.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal/imu_data.py to imu_data.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal/battery_monitor.py to battery_monitor.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal/audio_io.py to audio_io.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal/arduino_bridge.py to arduino_bridge.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal/camera.py to camera.cpython-312.pyc
+running install_data
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/ament_index
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/ament_index/resource_index
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/ament_index/resource_index/packages
+copying resource/waiter_hal -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/ament_index/resource_index/packages
+copying package.xml -> /home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal
+running install_egg_info
+Copying ../../build/waiter_hal/waiter_hal.egg-info to /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages/waiter_hal-0.0.0-py3.12.egg-info
+running install_scripts
+Installing arduino_bridge script to /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/waiter_hal
+Installing audio_io script to /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/waiter_hal
+Installing battery_monitor script to /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/waiter_hal
+Installing camera script to /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/waiter_hal
+Installing imu_data script to /home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/waiter_hal
+writing list of installed files to '/home/mohamed/gradprojWORKSPACE/build/waiter_hal/install.log'

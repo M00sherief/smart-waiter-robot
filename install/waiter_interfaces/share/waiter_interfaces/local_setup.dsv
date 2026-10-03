@@ -1,0 +1,2 @@
+source;share/waiter_interfaces/environment/ament_prefix_path.sh
+source;share/waiter_interfaces/environment/path.sh

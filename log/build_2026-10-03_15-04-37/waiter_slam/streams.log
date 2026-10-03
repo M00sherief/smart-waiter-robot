@@ -1,0 +1,45 @@
+[4.183s] Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_slam build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log --install-scripts $base/lib/waiter_slam --single-version-externally-managed install_data
+[5.080s] running egg_info
+[5.080s] creating ../../build/waiter_slam/waiter_slam.egg-info
+[5.153s] writing ../../build/waiter_slam/waiter_slam.egg-info/PKG-INFO
+[5.153s] writing dependency_links to ../../build/waiter_slam/waiter_slam.egg-info/dependency_links.txt
+[5.154s] writing entry points to ../../build/waiter_slam/waiter_slam.egg-info/entry_points.txt
+[5.155s] writing requirements to ../../build/waiter_slam/waiter_slam.egg-info/requires.txt
+[5.155s] writing top-level names to ../../build/waiter_slam/waiter_slam.egg-info/top_level.txt
+[5.156s] writing manifest file '../../build/waiter_slam/waiter_slam.egg-info/SOURCES.txt'
+[5.296s] reading manifest file '../../build/waiter_slam/waiter_slam.egg-info/SOURCES.txt'
+[5.298s] writing manifest file '../../build/waiter_slam/waiter_slam.egg-info/SOURCES.txt'
+[5.298s] running build
+[5.299s] running build_py
+[5.300s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build
+[5.300s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib
+[5.300s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam
+[5.300s] copying waiter_slam/__init__.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam
+[5.301s] copying waiter_slam/amcl.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam
+[5.301s] copying waiter_slam/slam_toolbox.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam
+[5.302s] copying waiter_slam/map_server.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam
+[5.303s] running install
+[5.319s] running install_lib
+[5.386s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam
+[5.387s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam/__init__.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam
+[5.397s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam/amcl.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam
+[5.397s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam/slam_toolbox.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam
+[5.399s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build/lib/waiter_slam/map_server.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam
+[5.402s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam/__init__.py to __init__.cpython-312.pyc
+[5.402s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam/amcl.py to amcl.cpython-312.pyc
+[5.403s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam/slam_toolbox.py to slam_toolbox.cpython-312.pyc
+[5.403s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam/map_server.py to map_server.cpython-312.pyc
+[5.404s] running install_data
+[5.404s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/ament_index
+[5.404s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/ament_index/resource_index
+[5.405s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/ament_index/resource_index/packages
+[5.405s] copying resource/waiter_slam -> /home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/ament_index/resource_index/packages
+[5.405s] copying package.xml -> /home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam
+[5.405s] running install_egg_info
+[5.482s] Copying ../../build/waiter_slam/waiter_slam.egg-info to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam-0.0.0-py3.12.egg-info
+[5.489s] running install_scripts
+[5.919s] Installing amcl script to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/waiter_slam
+[5.919s] Installing map_server script to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/waiter_slam
+[5.919s] Installing slam_toolbox script to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/waiter_slam
+[5.920s] writing list of installed files to '/home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log'
+[6.000s] Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_slam build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log --install-scripts $base/lib/waiter_slam --single-version-externally-managed install_data

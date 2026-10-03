@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info
+writing ../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/PKG-INFO
+writing dependency_links to ../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/dependency_links.txt
+writing entry points to ../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/entry_points.txt
+writing requirements to ../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/requires.txt
+writing top-level names to ../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/top_level.txt
+writing manifest file '../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/SOURCES.txt'
+reading manifest file '../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/SOURCES.txt'
+writing manifest file '../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build
+creating /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib
+creating /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction
+copying waiter_llm_interaction/speech_to_text.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction
+copying waiter_llm_interaction/__init__.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction
+copying waiter_llm_interaction/mission_manager.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction
+copying waiter_llm_interaction/order_manager.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction
+copying waiter_llm_interaction/llm.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction
+copying waiter_llm_interaction/text_to_speech.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction
+running install
+running install_lib
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction/speech_to_text.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction/__init__.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction/mission_manager.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction/order_manager.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction/llm.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction
+copying /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build/lib/waiter_llm_interaction/text_to_speech.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction/speech_to_text.py to speech_to_text.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction/mission_manager.py to mission_manager.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction/order_manager.py to order_manager.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction/llm.py to llm.cpython-312.pyc
+byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction/text_to_speech.py to text_to_speech.cpython-312.pyc
+running install_data
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/ament_index
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/ament_index/resource_index
+creating /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/ament_index/resource_index/packages
+copying resource/waiter_llm_interaction -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/ament_index/resource_index/packages
+copying package.xml -> /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction
+running install_egg_info
+Copying ../../build/waiter_llm_interaction/waiter_llm_interaction.egg-info to /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages/waiter_llm_interaction-0.0.0-py3.12.egg-info
+running install_scripts
+Installing llm script to /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/waiter_llm_interaction
+Installing mission_manager script to /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/waiter_llm_interaction
+Installing order_manager script to /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/waiter_llm_interaction
+Installing speech_to_text script to /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/waiter_llm_interaction
+Installing text_to_speech script to /home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/waiter_llm_interaction
+writing list of installed files to '/home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/install.log'

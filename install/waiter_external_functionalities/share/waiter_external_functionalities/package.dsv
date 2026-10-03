@@ -1,0 +1,6 @@
+source;share/waiter_external_functionalities/hook/pythonpath.ps1
+source;share/waiter_external_functionalities/hook/pythonpath.dsv
+source;share/waiter_external_functionalities/hook/pythonpath.sh
+source;share/waiter_external_functionalities/hook/ament_prefix_path.ps1
+source;share/waiter_external_functionalities/hook/ament_prefix_path.dsv
+source;share/waiter_external_functionalities/hook/ament_prefix_path.sh

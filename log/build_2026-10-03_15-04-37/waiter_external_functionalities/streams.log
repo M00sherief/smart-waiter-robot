@@ -1,0 +1,41 @@
+[4.911s] Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_external_functionalities': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_external_functionalities build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/install.log --install-scripts $base/lib/waiter_external_functionalities --single-version-externally-managed install_data
+[6.239s] running egg_info
+[6.239s] creating ../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info
+[6.333s] writing ../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/PKG-INFO
+[6.333s] writing dependency_links to ../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/dependency_links.txt
+[6.342s] writing entry points to ../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/entry_points.txt
+[6.343s] writing requirements to ../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/requires.txt
+[6.343s] writing top-level names to ../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/top_level.txt
+[6.343s] writing manifest file '../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/SOURCES.txt'
+[6.531s] reading manifest file '../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/SOURCES.txt'
+[6.540s] writing manifest file '../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info/SOURCES.txt'
+[6.540s] running build
+[6.541s] running build_py
+[6.543s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build
+[6.543s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib
+[6.544s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib/waiter_external_functionalities
+[6.544s] copying waiter_external_functionalities/__init__.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib/waiter_external_functionalities
+[6.544s] copying waiter_external_functionalities/app_bridge.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib/waiter_external_functionalities
+[6.544s] copying waiter_external_functionalities/power_manager.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib/waiter_external_functionalities
+[6.547s] running install
+[6.571s] running install_lib
+[6.678s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities
+[6.678s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib/waiter_external_functionalities/__init__.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities
+[6.681s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib/waiter_external_functionalities/app_bridge.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities
+[6.682s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build/lib/waiter_external_functionalities/power_manager.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities
+[6.682s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities/__init__.py to __init__.cpython-312.pyc
+[6.682s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities/app_bridge.py to app_bridge.cpython-312.pyc
+[6.683s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities/power_manager.py to power_manager.cpython-312.pyc
+[6.687s] running install_data
+[6.688s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/ament_index
+[6.688s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/ament_index/resource_index
+[6.688s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/ament_index/resource_index/packages
+[6.689s] copying resource/waiter_external_functionalities -> /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/ament_index/resource_index/packages
+[6.689s] copying package.xml -> /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities
+[6.689s] running install_egg_info
+[6.808s] Copying ../../build/waiter_external_functionalities/waiter_external_functionalities.egg-info to /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages/waiter_external_functionalities-0.0.0-py3.12.egg-info
+[6.811s] running install_scripts
+[7.491s] Installing app_bridge script to /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/waiter_external_functionalities
+[7.491s] Installing power_manager script to /home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/waiter_external_functionalities
+[7.492s] writing list of installed files to '/home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/install.log'
+[7.599s] Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_external_functionalities' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_external_functionalities build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/install.log --install-scripts $base/lib/waiter_external_functionalities --single-version-externally-managed install_data

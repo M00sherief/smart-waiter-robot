@@ -1,0 +1,23 @@
+[3.851s] Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_slam build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log --install-scripts $base/lib/waiter_slam --single-version-externally-managed install_data
+[4.921s] running egg_info
+[4.983s] writing ../../build/waiter_slam/waiter_slam.egg-info/PKG-INFO
+[4.983s] writing dependency_links to ../../build/waiter_slam/waiter_slam.egg-info/dependency_links.txt
+[4.984s] writing entry points to ../../build/waiter_slam/waiter_slam.egg-info/entry_points.txt
+[4.985s] writing requirements to ../../build/waiter_slam/waiter_slam.egg-info/requires.txt
+[4.985s] writing top-level names to ../../build/waiter_slam/waiter_slam.egg-info/top_level.txt
+[5.128s] reading manifest file '../../build/waiter_slam/waiter_slam.egg-info/SOURCES.txt'
+[5.130s] writing manifest file '../../build/waiter_slam/waiter_slam.egg-info/SOURCES.txt'
+[5.131s] running build
+[5.131s] running build_py
+[5.132s] running install
+[5.150s] running install_lib
+[5.215s] running install_data
+[5.215s] running install_egg_info
+[5.281s] removing '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam-0.0.0-py3.12.egg-info' (and everything under it)
+[5.282s] Copying ../../build/waiter_slam/waiter_slam.egg-info to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages/waiter_slam-0.0.0-py3.12.egg-info
+[5.284s] running install_scripts
+[5.678s] Installing amcl script to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/waiter_slam
+[5.678s] Installing map_server script to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/waiter_slam
+[5.679s] Installing slam_toolbox script to /home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/waiter_slam
+[5.680s] writing list of installed files to '/home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log'
+[5.753s] Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_slam build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log --install-scripts $base/lib/waiter_slam --single-version-externally-managed install_data

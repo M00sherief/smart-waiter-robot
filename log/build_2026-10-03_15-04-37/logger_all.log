@@ -1,0 +1,511 @@
+[0.309s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.309s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x764d76994410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764d76912150>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764d76912150>>)
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.421s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mohamed/gradprojWORKSPACE'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_bringup) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_bringup' with type 'ros.ament_python' and name 'waiter_bringup'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_external_functionalities) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_external_functionalities' with type 'ros.ament_python' and name 'waiter_external_functionalities'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_hal) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_hal' with type 'ros.ament_python' and name 'waiter_hal'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_interfaces) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_interfaces' with type 'ros.ament_cmake' and name 'waiter_interfaces'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_llm_interaction) by extension 'ros'
+[0.501s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_llm_interaction' with type 'ros.ament_python' and name 'waiter_llm_interaction'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_nav) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_nav' with type 'ros.ament_python' and name 'waiter_nav'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_sensor_processing) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_sensor_processing' with type 'ros.ament_python' and name 'waiter_sensor_processing'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_slam) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_slam' with type 'ros.ament_python' and name 'waiter_slam'
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 495 installed packages in /opt/ros/jazzy
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'cmake_target' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'waiter_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.737s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'cmake_target' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'cmake_clean_cache' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'cmake_clean_first' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'cmake_force_configure' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'ament_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'catkin_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_external_functionalities' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.738s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_external_functionalities' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_external_functionalities', 'symlink_install': False, 'test_result_base': None}
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'cmake_target' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'cmake_clean_first' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'cmake_force_configure' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'ament_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_hal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.739s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_hal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_hal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_hal', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_hal', 'symlink_install': False, 'test_result_base': None}
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.740s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'cmake_target' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'cmake_clean_cache' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'cmake_clean_first' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'cmake_force_configure' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'ament_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'catkin_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_llm_interaction' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.741s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_llm_interaction' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_llm_interaction', 'symlink_install': False, 'test_result_base': None}
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'cmake_target' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.742s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_nav', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_nav', 'symlink_install': False, 'test_result_base': None}
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'cmake_args' from command line to 'None'
+[0.742s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'cmake_target' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_sensor_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.743s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_sensor_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_sensor_processing', 'symlink_install': False, 'test_result_base': None}
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'cmake_args' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'cmake_target' from command line to 'None'
+[0.743s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.744s] Level 5:colcon.colcon_core.verb:set package 'waiter_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.744s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamed/gradprojWORKSPACE/build/waiter_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamed/gradprojWORKSPACE/install/waiter_slam', 'merge_install': False, 'path': '/home/mohamed/gradprojWORKSPACE/src/waiter_slam', 'symlink_install': False, 'test_result_base': None}
+[0.744s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.745s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.746s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_bringup' with build type 'ament_python'
+[0.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_bringup', 'ament_prefix_path')
+[0.760s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/hook/ament_prefix_path.ps1'
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/hook/ament_prefix_path.dsv'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/hook/ament_prefix_path.sh'
+[0.767s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.767s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_external_functionalities' with build type 'ament_python'
+[0.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_external_functionalities', 'ament_prefix_path')
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/hook/ament_prefix_path.ps1'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/hook/ament_prefix_path.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/hook/ament_prefix_path.sh'
+[0.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.796s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_hal' with build type 'ament_python'
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_hal', 'ament_prefix_path')
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/hook/ament_prefix_path.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/hook/ament_prefix_path.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/hook/ament_prefix_path.sh'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.811s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_interfaces' with build type 'ament_cmake'
+[0.811s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mohamed/gradprojWORKSPACE/src/waiter_interfaces'
+[0.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.438s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamed/gradprojWORKSPACE/src/waiter_bringup'
+[1.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.998s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamed/gradprojWORKSPACE/src/waiter_external_functionalities'
+[1.998s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.998s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.571s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamed/gradprojWORKSPACE/src/waiter_hal'
+[2.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mohamed/gradprojWORKSPACE/src/waiter_interfaces -DCMAKE_INSTALL_PREFIX=/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces
+[5.620s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, update_catalog, install, develop, saveopts, install_data, install_scripts, bdist_dumb, extract_messages, install_egg_info, install_lib, egg_info, symlink_data, setopt, clean, build_py, test, easy_install, build_scripts, install_headers, compile_catalog, sdist, init_catalog, bdist_wheel, check, upload_docs, build_ext, bdist_egg, register, dist_info, bdist_rpm, editable_wheel, alias, bdist, build_clib, build
+[5.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_bringup build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/install.log --install-scripts $base/lib/waiter_bringup --single-version-externally-managed install_data
+[5.640s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, update_catalog, install, develop, saveopts, install_data, install_scripts, bdist_dumb, extract_messages, install_egg_info, install_lib, egg_info, symlink_data, setopt, clean, build_py, test, easy_install, build_scripts, install_headers, compile_catalog, sdist, init_catalog, bdist_wheel, check, upload_docs, build_ext, bdist_egg, register, dist_info, bdist_rpm, editable_wheel, alias, bdist, build_clib, build
+[5.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_hal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_hal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_hal build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_hal/install.log --install-scripts $base/lib/waiter_hal --single-version-externally-managed install_data
+[5.684s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, update_catalog, install, develop, saveopts, install_data, install_scripts, bdist_dumb, extract_messages, install_egg_info, install_lib, egg_info, symlink_data, setopt, clean, build_py, test, easy_install, build_scripts, install_headers, compile_catalog, sdist, init_catalog, bdist_wheel, check, upload_docs, build_ext, bdist_egg, register, dist_info, bdist_rpm, editable_wheel, alias, bdist, build_clib, build
+[5.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_external_functionalities': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_external_functionalities build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/install.log --install-scripts $base/lib/waiter_external_functionalities --single-version-externally-managed install_data
+[6.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mohamed/gradprojWORKSPACE/src/waiter_interfaces -DCMAKE_INSTALL_PREFIX=/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces
+[6.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mohamed/gradprojWORKSPACE/build/waiter_interfaces -- -j4 -l4
+[6.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mohamed/gradprojWORKSPACE/build/waiter_interfaces -- -j4 -l4
+[6.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mohamed/gradprojWORKSPACE/build/waiter_interfaces
+[6.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_interfaces)
+[6.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/build/waiter_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mohamed/gradprojWORKSPACE/build/waiter_interfaces
+[6.436s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces' for CMake module files
+[6.438s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces' for CMake config files
+[6.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_interfaces', 'cmake_prefix_path')
+[6.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/hook/cmake_prefix_path.ps1'
+[6.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/hook/cmake_prefix_path.dsv'
+[6.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/hook/cmake_prefix_path.sh'
+[6.443s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/bin'
+[6.443s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/lib/pkgconfig/waiter_interfaces.pc'
+[6.444s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/lib/python3.12/site-packages'
+[6.445s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/bin'
+[6.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.ps1'
+[6.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.dsv'
+[6.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.sh'
+[6.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.bash'
+[6.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.zsh'
+[6.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/colcon-core/packages/waiter_interfaces)
+[6.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_interfaces)
+[6.461s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces' for CMake module files
+[6.463s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces' for CMake config files
+[6.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_interfaces', 'cmake_prefix_path')
+[6.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/hook/cmake_prefix_path.ps1'
+[6.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/hook/cmake_prefix_path.dsv'
+[6.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/hook/cmake_prefix_path.sh'
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/bin'
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/lib/pkgconfig/waiter_interfaces.pc'
+[6.469s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/lib/python3.12/site-packages'
+[6.470s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/bin'
+[6.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.ps1'
+[6.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.dsv'
+[6.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.sh'
+[6.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.bash'
+[6.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.zsh'
+[6.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/colcon-core/packages/waiter_interfaces)
+[6.480s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_llm_interaction' with build type 'ament_python'
+[6.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_llm_interaction', 'ament_prefix_path')
+[6.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/hook/ament_prefix_path.ps1'
+[6.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/hook/ament_prefix_path.dsv'
+[6.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/hook/ament_prefix_path.sh'
+[6.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.464s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamed/gradprojWORKSPACE/src/waiter_llm_interaction'
+[7.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.375s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities' for CMake module files
+[8.379s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities' for CMake config files
+[8.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_external_functionalities' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_external_functionalities build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_external_functionalities/install.log --install-scripts $base/lib/waiter_external_functionalities --single-version-externally-managed install_data
+[8.384s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib'
+[8.385s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/bin'
+[8.385s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/pkgconfig/waiter_external_functionalities.pc'
+[8.386s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/lib/python3.12/site-packages'
+[8.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_external_functionalities', 'pythonpath')
+[8.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/hook/pythonpath.ps1'
+[8.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/hook/pythonpath.dsv'
+[8.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/hook/pythonpath.sh'
+[8.393s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/bin'
+[8.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_external_functionalities)
+[8.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/package.ps1'
+[8.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/package.dsv'
+[8.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/package.sh'
+[8.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/package.bash'
+[8.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/waiter_external_functionalities/package.zsh'
+[8.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_external_functionalities/share/colcon-core/packages/waiter_external_functionalities)
+[8.413s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_nav' with build type 'ament_python'
+[8.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_nav', 'ament_prefix_path')
+[8.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/hook/ament_prefix_path.ps1'
+[8.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/hook/ament_prefix_path.dsv'
+[8.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/hook/ament_prefix_path.sh'
+[8.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.451s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup' for CMake module files
+[8.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_bringup build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/install.log --install-scripts $base/lib/waiter_bringup --single-version-externally-managed install_data
+[8.455s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup' for CMake config files
+[8.457s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib'
+[8.458s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/bin'
+[8.458s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/pkgconfig/waiter_bringup.pc'
+[8.459s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages'
+[8.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_bringup', 'pythonpath')
+[8.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/hook/pythonpath.ps1'
+[8.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/hook/pythonpath.dsv'
+[8.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/hook/pythonpath.sh'
+[8.469s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/bin'
+[8.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_bringup)
+[8.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/package.ps1'
+[8.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/package.dsv'
+[8.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/package.sh'
+[8.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/package.bash'
+[8.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup/package.zsh'
+[8.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/colcon-core/packages/waiter_bringup)
+[8.480s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_sensor_processing' with build type 'ament_python'
+[8.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_sensor_processing', 'ament_prefix_path')
+[8.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/hook/ament_prefix_path.ps1'
+[8.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/hook/ament_prefix_path.dsv'
+[8.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/hook/ament_prefix_path.sh'
+[8.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.503s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_hal' for CMake module files
+[8.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_hal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_hal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_hal build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_hal/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_hal/install.log --install-scripts $base/lib/waiter_hal --single-version-externally-managed install_data
+[8.508s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_hal' for CMake config files
+[8.510s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib'
+[8.510s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/bin'
+[8.510s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/pkgconfig/waiter_hal.pc'
+[8.511s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/lib/python3.12/site-packages'
+[8.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_hal', 'pythonpath')
+[8.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/hook/pythonpath.ps1'
+[8.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/hook/pythonpath.dsv'
+[8.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/hook/pythonpath.sh'
+[8.517s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/bin'
+[8.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_hal)
+[8.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/package.ps1'
+[8.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/package.dsv'
+[8.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/package.sh'
+[8.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/package.bash'
+[8.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/waiter_hal/package.zsh'
+[8.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_hal/share/colcon-core/packages/waiter_hal)
+[9.106s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamed/gradprojWORKSPACE/src/waiter_nav'
+[9.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.121s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam' with build type 'ament_python'
+[9.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_slam', 'ament_prefix_path')
+[9.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/hook/ament_prefix_path.ps1'
+[9.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/hook/ament_prefix_path.dsv'
+[9.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/hook/ament_prefix_path.sh'
+[9.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.743s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamed/gradprojWORKSPACE/src/waiter_sensor_processing'
+[9.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.346s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam'
+[10.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.355s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, update_catalog, install, develop, saveopts, install_data, install_scripts, bdist_dumb, extract_messages, install_egg_info, install_lib, egg_info, symlink_data, setopt, clean, build_py, test, easy_install, build_scripts, install_headers, compile_catalog, sdist, init_catalog, bdist_wheel, check, upload_docs, build_ext, bdist_egg, register, dist_info, bdist_rpm, editable_wheel, alias, bdist, build_clib, build
+[10.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_llm_interaction': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_llm_interaction build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/install.log --install-scripts $base/lib/waiter_llm_interaction --single-version-externally-managed install_data
+[12.104s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, update_catalog, install, develop, saveopts, install_data, install_scripts, bdist_dumb, extract_messages, install_egg_info, install_lib, egg_info, symlink_data, setopt, clean, build_py, test, easy_install, build_scripts, install_headers, compile_catalog, sdist, init_catalog, bdist_wheel, check, upload_docs, build_ext, bdist_egg, register, dist_info, bdist_rpm, editable_wheel, alias, bdist, build_clib, build
+[12.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_nav build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_nav/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_nav/install.log --install-scripts $base/lib/waiter_nav --single-version-externally-managed install_data
+[13.012s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, update_catalog, install, develop, saveopts, install_data, install_scripts, bdist_dumb, extract_messages, install_egg_info, install_lib, egg_info, symlink_data, setopt, clean, build_py, test, easy_install, build_scripts, install_headers, compile_catalog, sdist, init_catalog, bdist_wheel, check, upload_docs, build_ext, bdist_egg, register, dist_info, bdist_rpm, editable_wheel, alias, bdist, build_clib, build
+[13.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_sensor_processing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_sensor_processing build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/install.log --install-scripts $base/lib/waiter_sensor_processing --single-version-externally-managed install_data
+[13.302s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, update_catalog, install, develop, saveopts, install_data, install_scripts, bdist_dumb, extract_messages, install_egg_info, install_lib, egg_info, symlink_data, setopt, clean, build_py, test, easy_install, build_scripts, install_headers, compile_catalog, sdist, init_catalog, bdist_wheel, check, upload_docs, build_ext, bdist_egg, register, dist_info, bdist_rpm, editable_wheel, alias, bdist, build_clib, build
+[13.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_slam build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log --install-scripts $base/lib/waiter_slam --single-version-externally-managed install_data
+[13.324s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction' for CMake module files
+[13.327s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction' for CMake config files
+[13.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_llm_interaction' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_llm_interaction build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_llm_interaction/install.log --install-scripts $base/lib/waiter_llm_interaction --single-version-externally-managed install_data
+[13.330s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib'
+[13.330s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/bin'
+[13.330s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/pkgconfig/waiter_llm_interaction.pc'
+[13.331s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/lib/python3.12/site-packages'
+[13.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_llm_interaction', 'pythonpath')
+[13.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/hook/pythonpath.ps1'
+[13.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/hook/pythonpath.dsv'
+[13.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/hook/pythonpath.sh'
+[13.339s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/bin'
+[13.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_llm_interaction)
+[13.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/package.ps1'
+[13.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/package.dsv'
+[13.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/package.sh'
+[13.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/package.bash'
+[13.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/waiter_llm_interaction/package.zsh'
+[13.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_llm_interaction/share/colcon-core/packages/waiter_llm_interaction)
+[14.601s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_nav' for CMake module files
+[14.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_nav build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_nav/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_nav/install.log --install-scripts $base/lib/waiter_nav --single-version-externally-managed install_data
+[14.604s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_nav' for CMake config files
+[14.607s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/lib'
+[14.608s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/bin'
+[14.608s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/lib/pkgconfig/waiter_nav.pc'
+[14.609s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/lib/python3.12/site-packages'
+[14.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_nav', 'pythonpath')
+[14.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/hook/pythonpath.ps1'
+[14.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/hook/pythonpath.dsv'
+[14.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/hook/pythonpath.sh'
+[14.616s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/bin'
+[14.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_nav)
+[14.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/package.ps1'
+[14.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/package.dsv'
+[14.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/package.sh'
+[14.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/package.bash'
+[14.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/waiter_nav/package.zsh'
+[14.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_nav/share/colcon-core/packages/waiter_nav)
+[15.122s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_slam' for CMake module files
+[15.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_slam' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_slam build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_slam/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_slam/install.log --install-scripts $base/lib/waiter_slam --single-version-externally-managed install_data
+[15.126s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_slam' for CMake config files
+[15.127s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib'
+[15.128s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/bin'
+[15.128s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/pkgconfig/waiter_slam.pc'
+[15.129s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/lib/python3.12/site-packages'
+[15.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_slam', 'pythonpath')
+[15.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/hook/pythonpath.ps1'
+[15.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/hook/pythonpath.dsv'
+[15.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/hook/pythonpath.sh'
+[15.132s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/bin'
+[15.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_slam)
+[15.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/package.ps1'
+[15.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/package.dsv'
+[15.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/package.sh'
+[15.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/package.bash'
+[15.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/waiter_slam/package.zsh'
+[15.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_slam/share/colcon-core/packages/waiter_slam)
+[15.255s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing' for CMake module files
+[15.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_sensor_processing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_sensor_processing build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/install.log --install-scripts $base/lib/waiter_sensor_processing --single-version-externally-managed install_data
+[15.258s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing' for CMake config files
+[15.259s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib'
+[15.259s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/bin'
+[15.260s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/pkgconfig/waiter_sensor_processing.pc'
+[15.260s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages'
+[15.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_sensor_processing', 'pythonpath')
+[15.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/hook/pythonpath.ps1'
+[15.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/hook/pythonpath.dsv'
+[15.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/hook/pythonpath.sh'
+[15.266s] Level 1:colcon.colcon_core.environment:checking '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/bin'
+[15.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_sensor_processing)
+[15.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/package.ps1'
+[15.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/package.dsv'
+[15.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/package.sh'
+[15.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/package.bash'
+[15.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing/package.zsh'
+[15.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/colcon-core/packages/waiter_sensor_processing)
+[15.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.275s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.298s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.383s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamed/gradprojWORKSPACE/install/local_setup.ps1'
+[15.391s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mohamed/gradprojWORKSPACE/install/_local_setup_util_ps1.py'
+[15.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamed/gradprojWORKSPACE/install/setup.ps1'
+[15.413s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamed/gradprojWORKSPACE/install/local_setup.sh'
+[15.417s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mohamed/gradprojWORKSPACE/install/_local_setup_util_sh.py'
+[15.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamed/gradprojWORKSPACE/install/setup.sh'
+[15.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamed/gradprojWORKSPACE/install/local_setup.bash'
+[15.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamed/gradprojWORKSPACE/install/setup.bash'
+[15.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamed/gradprojWORKSPACE/install/local_setup.zsh'
+[15.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamed/gradprojWORKSPACE/install/setup.zsh'

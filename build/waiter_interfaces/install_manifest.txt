@@ -1,0 +1,15 @@
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/ament_index/resource_index/package_run_dependencies/waiter_interfaces
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/ament_index/resource_index/parent_prefix_path/waiter_interfaces
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/environment/ament_prefix_path.sh
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/environment/ament_prefix_path.dsv
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/environment/path.sh
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/environment/path.dsv
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/local_setup.bash
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/local_setup.sh
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/local_setup.zsh
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/local_setup.dsv
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.dsv
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/ament_index/resource_index/packages/waiter_interfaces
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/cmake/waiter_interfacesConfig.cmake
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/cmake/waiter_interfacesConfig-version.cmake
+/home/mohamed/gradprojWORKSPACE/install/waiter_interfaces/share/waiter_interfaces/package.xml

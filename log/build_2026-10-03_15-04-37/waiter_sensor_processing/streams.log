@@ -1,0 +1,41 @@
+[4.534s] Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_sensor_processing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_sensor_processing build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/install.log --install-scripts $base/lib/waiter_sensor_processing --single-version-externally-managed install_data
+[5.789s] running egg_info
+[5.789s] creating ../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info
+[5.886s] writing ../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/PKG-INFO
+[5.887s] writing dependency_links to ../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/dependency_links.txt
+[5.887s] writing entry points to ../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/entry_points.txt
+[5.888s] writing requirements to ../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/requires.txt
+[5.888s] writing top-level names to ../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/top_level.txt
+[5.889s] writing manifest file '../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/SOURCES.txt'
+[6.076s] reading manifest file '../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/SOURCES.txt'
+[6.078s] writing manifest file '../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info/SOURCES.txt'
+[6.081s] running build
+[6.081s] running build_py
+[6.082s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build
+[6.083s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib
+[6.085s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib/waiter_sensor_processing
+[6.085s] copying waiter_sensor_processing/__init__.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib/waiter_sensor_processing
+[6.085s] copying waiter_sensor_processing/ekf.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib/waiter_sensor_processing
+[6.086s] copying waiter_sensor_processing/laser_scan.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib/waiter_sensor_processing
+[6.086s] running install
+[6.108s] running install_lib
+[6.178s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing
+[6.179s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib/waiter_sensor_processing/__init__.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing
+[6.179s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib/waiter_sensor_processing/ekf.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing
+[6.180s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build/lib/waiter_sensor_processing/laser_scan.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing
+[6.181s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing/__init__.py to __init__.cpython-312.pyc
+[6.182s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing/ekf.py to ekf.cpython-312.pyc
+[6.183s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing/laser_scan.py to laser_scan.cpython-312.pyc
+[6.184s] running install_data
+[6.185s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/ament_index
+[6.186s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/ament_index/resource_index
+[6.186s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/ament_index/resource_index/packages
+[6.186s] copying resource/waiter_sensor_processing -> /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/ament_index/resource_index/packages
+[6.187s] copying package.xml -> /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/share/waiter_sensor_processing
+[6.187s] running install_egg_info
+[6.265s] Copying ../../build/waiter_sensor_processing/waiter_sensor_processing.egg-info to /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages/waiter_sensor_processing-0.0.0-py3.12.egg-info
+[6.266s] running install_scripts
+[6.703s] Installing ekf script to /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/waiter_sensor_processing
+[6.704s] Installing laser_scan script to /home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/waiter_sensor_processing
+[6.704s] writing list of installed files to '/home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/install.log'
+[6.775s] Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_sensor_processing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_sensor_processing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_sensor_processing build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_sensor_processing/install.log --install-scripts $base/lib/waiter_sensor_processing --single-version-externally-managed install_data

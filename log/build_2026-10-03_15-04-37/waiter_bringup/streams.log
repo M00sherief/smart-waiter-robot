@@ -1,0 +1,32 @@
+[4.879s] Invoking command in '/home/mohamed/gradprojWORKSPACE/src/waiter_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_bringup build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/install.log --install-scripts $base/lib/waiter_bringup --single-version-externally-managed install_data
+[6.192s] running egg_info
+[6.193s] creating ../../build/waiter_bringup/waiter_bringup.egg-info
+[6.288s] writing ../../build/waiter_bringup/waiter_bringup.egg-info/PKG-INFO
+[6.289s] writing dependency_links to ../../build/waiter_bringup/waiter_bringup.egg-info/dependency_links.txt
+[6.291s] writing requirements to ../../build/waiter_bringup/waiter_bringup.egg-info/requires.txt
+[6.292s] writing top-level names to ../../build/waiter_bringup/waiter_bringup.egg-info/top_level.txt
+[6.293s] writing manifest file '../../build/waiter_bringup/waiter_bringup.egg-info/SOURCES.txt'
+[6.504s] reading manifest file '../../build/waiter_bringup/waiter_bringup.egg-info/SOURCES.txt'
+[6.507s] writing manifest file '../../build/waiter_bringup/waiter_bringup.egg-info/SOURCES.txt'
+[6.507s] running build
+[6.508s] running build_py
+[6.509s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build
+[6.509s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build/lib
+[6.509s] creating /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build/lib/waiter_bringup
+[6.511s] copying waiter_bringup/__init__.py -> /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build/lib/waiter_bringup
+[6.512s] running install
+[6.547s] running install_lib
+[6.657s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages/waiter_bringup
+[6.658s] copying /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build/lib/waiter_bringup/__init__.py -> /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages/waiter_bringup
+[6.663s] byte-compiling /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages/waiter_bringup/__init__.py to __init__.cpython-312.pyc
+[6.664s] running install_data
+[6.664s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/ament_index
+[6.664s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/ament_index/resource_index
+[6.665s] creating /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/ament_index/resource_index/packages
+[6.665s] copying resource/waiter_bringup -> /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/ament_index/resource_index/packages
+[6.665s] copying package.xml -> /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/share/waiter_bringup
+[6.666s] running install_egg_info
+[6.789s] Copying ../../build/waiter_bringup/waiter_bringup.egg-info to /home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages/waiter_bringup-0.0.0-py3.12.egg-info
+[6.792s] running install_scripts
+[7.556s] writing list of installed files to '/home/mohamed/gradprojWORKSPACE/build/waiter_bringup/install.log'
+[7.704s] Invoked command in '/home/mohamed/gradprojWORKSPACE/src/waiter_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/gradprojWORKSPACE/build/waiter_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/gradprojWORKSPACE/install/waiter_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_bringup build --build-base /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/build install --record /home/mohamed/gradprojWORKSPACE/build/waiter_bringup/install.log --install-scripts $base/lib/waiter_bringup --single-version-externally-managed install_data
