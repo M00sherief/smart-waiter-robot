@@ -24,9 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'map_server = waiter_slam.map_server:main',
-            'slam_toolbox = waiter_slam.slam_toolbox:main',
-            'amcl = waiter_slam.amcl:main',
         ],
     },
 )

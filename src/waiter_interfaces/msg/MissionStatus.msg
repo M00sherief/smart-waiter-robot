@@ -1,0 +1,10 @@
+uint8 IDLE=0
+uint8 GOING_TO_KITCHEN=1
+uint8 WAITING_FOR_FOOD=2
+uint8 DELIVERING=3
+uint8 AT_TABLE=4
+uint8 RETURNING=5
+uint8 DOCKING=6
+string mission_id
+uint16 table_id
+uint8 state

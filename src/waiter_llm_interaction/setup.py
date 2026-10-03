@@ -24,10 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'asl_recognition = waiter_llm_interaction.asl_recognition:main',
+            'voice_assistant = waiter_llm_interaction.voice_assistant:main',
             'mission_manager = waiter_llm_interaction.mission_manager:main',
-            'text_to_speech = waiter_llm_interaction.text_to_speech:main',
-            'speech_to_text = waiter_llm_interaction.speech_to_text:main',
-            'llm = waiter_llm_interaction.llm:main',
             'order_manager = waiter_llm_interaction.order_manager:main',
         ],
     },

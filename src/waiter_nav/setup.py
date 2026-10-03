@@ -24,11 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'bt_navigator = waiter_nav.bt_navigator:main',
-            'controller = waiter_nav.controller:main',
-            'planner = waiter_nav.planner:main',
-            'global_costmap = waiter_nav.global_costmap:main',
-            'local_costmap = waiter_nav.local_costmap:main',
         ],
     },
 )

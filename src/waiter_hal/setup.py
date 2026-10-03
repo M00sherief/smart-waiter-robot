@@ -24,10 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'imu_data = waiter_hal.imu_data:main',
             'audio_io = waiter_hal.audio_io:main',
-            'battery_monitor = waiter_hal.battery_monitor:main',
-            'camera = waiter_hal.camera:main',
             'arduino_bridge = waiter_hal.arduino_bridge:main',
         ],
     },

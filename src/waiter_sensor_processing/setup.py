@@ -24,8 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'laser_scan = waiter_sensor_processing.laser_scan:main',
-            'ekf = waiter_sensor_processing.ekf:main',
         ],
     },
 )
