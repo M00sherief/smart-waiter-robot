@@ -23,4 +23,17 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+find_package(rosidl_default_generators REQUIRED)
+find_package(action_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/AppGoal.msg"
+  "msg/OrderNew.msg"
+  "msg/OrderStatus.msg"
+  "msg/MissionStatus.msg"
+  "msg/PowerAlert.msg"
+  "msg/PoseReached.msg"
+  "action/Dock.action"
+  DEPENDENCIES action_msgs
+)
 ament_package()
