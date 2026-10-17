@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<!--
+  Waiter robot: custom chassis + 2 hoverboard wheels + 1 front ball caster.
+  Frames: x forward, y left, z up. Units: meters, kg, radians.
+
+  TF tree:
+    base_footprint (on the ground, under the wheel axle)
+      -> base_link (wheel axle center, z = wheel radius)
+           -> chassis_link
+           -> left_wheel_link / right_wheel_link
+           -> caster_link
+           -> imu_link
+
+  The chassis is one mesh file (meshes/chassis.stl): an 80 x 41 x 34 cm body (55 cm back block + 25 cm nose) with a flat
+  sloped nose. The same mesh is used for visual and collision (it is a convex shape).
+  Change the properties below to resize the wheels, track width, etc.
+-->
+<robot name="waiter_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ===================== Properties ===================== -->
+  <xacro:property name="wheel_radius"       value="0.095"/>  <!-- 19 cm diameter -->
+  <xacro:property name="wheel_width"        value="0.055"/>
+  <xacro:property name="wheel_mass"         value="2.0"/>
+  <xacro:property name="track_width"        value="0.51"/>   <!-- center to center of the wheels -->
+  <xacro:property name="ground_clearance"   value="0.12"/>   <!-- chassis floor above ground (sits on the hoverboard deck) -->
+  <xacro:property name="axle_from_back"     value="0.30"/>   <!-- axle distance from chassis back -->
+  <xacro:property name="caster_radius"      value="0.03"/>
+  <xacro:property name="caster_mass"        value="0.2"/>
+  <xacro:property name="caster_x_from_back" value="0.72"/>
+  <xacro:property name="chassis_mass"       value="8.0"/>
+
+  <!-- IMU position relative to base_link (wheel axle center). Measure and change these. -->
+  <xacro:property name="imu_x"              value="0.0"/>
+  <xacro:property name="imu_y"              value="0.0"/>
+  <xacro:property name="imu_z"              value="0.06"/>
+
+  <!-- ===================== Materials ===================== -->
+  <material name="white">
+    <color rgba="0.95 0.95 0.95 1.0"/>
+  </material>
+  <material name="black">
+    <color rgba="0.08 0.08 0.08 1.0"/>
+  </material>
+  <material name="grey">
+    <color rgba="0.55 0.55 0.58 1.0"/>
+  </material>
+
+  <!-- ===================== Macros ===================== -->
+  <xacro:macro name="wheel" params="prefix y_pos">
+    <joint name="${prefix}_wheel_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="${prefix}_wheel_link"/>
+      <origin xyz="0 ${y_pos} 0" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+      <limit effort="10.0" velocity="20.0"/>
+      <dynamics damping="0.01" friction="0.01"/>
+    </joint>
+
+    <link name="${prefix}_wheel_link">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="${wheel_mass}"/>
+        <!-- cylinder with its axis along Y -->
+        <inertia ixx="${wheel_mass/12*(3*wheel_radius*wheel_radius + wheel_width*wheel_width)}" ixy="0.0" ixz="0.0"
+                 iyy="${wheel_mass*wheel_radius*wheel_radius/2}" iyz="0.0"
+                 izz="${wheel_mass/12*(3*wheel_radius*wheel_radius + wheel_width*wheel_width)}"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry>
+      </collision>
+    </link>
+
+    <gazebo reference="${prefix}_wheel_link">
+      <mu1>1.0</mu1>
+      <mu2>1.0</mu2>
+    </gazebo>
+  </xacro:macro>
+
+  <!-- ===================== base_footprint and base_link ===================== -->
+  <link name="base_footprint"/>
+
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 ${wheel_radius}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="base_link"/>
+
+  <!-- ===================== Chassis ===================== -->
+  <!-- chassis_link origin = back-bottom-center of the chassis -->
+  <joint name="chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis_link"/>
+    <origin xyz="${-axle_from_back} 0 ${ground_clearance - wheel_radius}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="chassis_link">
+    <!-- Solid body of uniform density, values computed from the mesh (per 1 kg, scaled by mass) -->
+    <inertial>
+      <origin xyz="0.32939 0 0.16218" rpy="0 0 0"/>
+      <mass value="${chassis_mass}"/>
+      <inertia ixx="${chassis_mass*0.022882}" ixy="0.0" ixz="${chassis_mass*0.002627}"
+               iyy="${chassis_mass*0.047268}" iyz="0.0"
+               izz="${chassis_mass*0.051143}"/>
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://waiter_description/meshes/chassis.stl"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://waiter_description/meshes/chassis.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ===================== IMU ===================== -->
+  <!-- Frame for the IMU data coming from the Arduino. Set header.frame_id = "imu_link".
+       Axes follow ROS convention: x forward, y left, z up. If your sensor is mounted
+       rotated, change the rpy below. -->
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="${imu_x} ${imu_y} ${imu_z}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="imu_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><box size="0.03 0.02 0.005"/></geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- ===================== Wheels ===================== -->
+  <xacro:wheel prefix="left"  y_pos="${track_width/2}"/>
+  <xacro:wheel prefix="right" y_pos="${-track_width/2}"/>
+
+  <!-- ===================== Front caster (ball) ===================== -->
+  <joint name="caster_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="caster_link"/>
+    <origin xyz="${caster_x_from_back - axle_from_back} 0 ${caster_radius - wheel_radius}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="caster_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${caster_mass}"/>
+      <inertia ixx="${0.4*caster_mass*caster_radius*caster_radius}" ixy="0.0" ixz="0.0"
+               iyy="${0.4*caster_mass*caster_radius*caster_radius}" iyz="0.0"
+               izz="${0.4*caster_mass*caster_radius*caster_radius}"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><sphere radius="${caster_radius}"/></geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><sphere radius="${caster_radius}"/></geometry>
+    </collision>
+    <!-- Post that connects the ball to the chassis floor -->
+    <visual>
+      <origin xyz="0 0 ${caster_radius + (ground_clearance - 2*caster_radius)/2}" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.01" length="${ground_clearance - 2*caster_radius}"/></geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${caster_radius + (ground_clearance - 2*caster_radius)/2}" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.01" length="${ground_clearance - 2*caster_radius}"/></geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="caster_link">
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+  </gazebo>
+
+  <!-- ===================== ros2_control ===================== -->
+  <xacro:include filename="$(find waiter_description)/urdf/waiter_control.xacro"/>
+
+</robot>
