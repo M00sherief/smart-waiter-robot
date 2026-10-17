@@ -24,7 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'power_manager = waiter_external_functionalities.power_manager:main',
             'app_bridge = waiter_external_functionalities.app_bridge:main',
         ],
     },
