@@ -1,0 +1,75 @@
+# Controller settings for the waiter robot (ros2_control).
+# Used by the controller_manager. The robot description comes from the package waiter_description.
+
+controller_manager:
+  ros__parameters:
+    update_rate: 50          # Hz, how often the controllers run
+    use_sim_time: false
+
+    # 1) Publishes /joint_states (wheel positions and velocities)
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    # 2) Drives the two wheels from velocity commands and publishes the odometry
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+
+    # 3) Publishes the IMU data as sensor_msgs/Imu
+    imu_sensor_broadcaster:
+      type: imu_sensor_broadcaster/IMUSensorBroadcaster
+
+
+diff_drive_controller:
+  ros__parameters:
+    # Joint names (must match the joints in the URDF / waiter_control.xacro)
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    # Robot size
+    wheel_separation: 0.51   # m, distance between the wheel centers
+    wheel_radius: 0.095      # m, wheel diameter is 19 cm
+
+    # Small corrections if the real robot drives a bit off (leave at 1.0 for now)
+    wheel_separation_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+
+    # Odometry
+    publish_rate: 50.0
+    odom_frame_id: odom
+    base_frame_id: base_footprint
+    enable_odom_tf: true             # publishes the transform odom -> base_footprint
+    tf_frame_prefix_enable: false    # keep frame names plain (no prefix)
+    open_loop: false                 # false = use the wheel feedback from the hardware
+    position_feedback: true          # true = hardware gives wheel position
+    pose_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 0.01]
+    twist_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 0.01]
+
+    # Safety: stop the robot if no command arrives for this many seconds
+    cmd_vel_timeout: 0.5
+
+    # ROS 2 Humble only: false = the command topic uses geometry_msgs/Twist (cmd_vel_unstamped).
+    # In newer versions (Jazzy and later) this setting does not exist and the command is
+    # always geometry_msgs/TwistStamped on cmd_vel, so it is simply ignored.
+    use_stamped_vel: false
+
+    # Speed limits (start slow, a waiter robot carries things)
+    linear.x.has_velocity_limits: true
+    linear.x.max_velocity: 0.5          # m/s
+    linear.x.min_velocity: -0.5
+    linear.x.has_acceleration_limits: true
+    linear.x.max_acceleration: 0.5      # m/s^2
+    linear.x.min_acceleration: -0.5
+
+    angular.z.has_velocity_limits: true
+    angular.z.max_velocity: 1.0         # rad/s
+    angular.z.min_velocity: -1.0
+    angular.z.has_acceleration_limits: true
+    angular.z.max_acceleration: 1.0     # rad/s^2
+    angular.z.min_acceleration: -1.0
+
+
+imu_sensor_broadcaster:
+  ros__parameters:
+    sensor_name: imu_sensor      # must match the <sensor name="..."> in waiter_control.xacro
+    frame_id: imu_link           # the IMU frame in the URDF

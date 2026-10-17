@@ -1,0 +1,7 @@
+<library path="waiter_hardware">
+  <class name="waiter_hardware/WaiterHardware"
+         type="waiter_hardware::WaiterHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>Serial bridge to the Arduino of the waiter robot</description>
+  </class>
+</library>
