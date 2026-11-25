@@ -34,6 +34,12 @@
   <xacro:property name="imu_y"              value="0.0"/>
   <xacro:property name="imu_z"              value="0.06"/>
 
+  <!-- Lidar (RPLidar A1). ALL ESTIMATES: re-measure after the chassis is built -->
+  <xacro:property name="lidar_x_from_back"       value="0.40"/>  <!-- ESTIMATE: middle of chassis, +-5 cm -->
+  <xacro:property name="lidar_y"                 value="0.0"/>   <!-- centered -->
+  <xacro:property name="lidar_height_from_floor" value="0.78"/>  <!-- ESTIMATE: 75-80 cm, depends on table height -->
+  <xacro:property name="lidar_yaw"               value="0.0"/>   <!-- cable side faces the back -->
+
   <!-- ===================== Materials ===================== -->
   <material name="white">
     <color rgba="0.95 0.95 0.95 1.0"/>
@@ -189,6 +195,25 @@
     <mu1>0.0</mu1>
     <mu2>0.0</mu2>
   </gazebo>
+
+<!-- ===================== Lidar ===================== -->
+  <!-- Link is named "laser" because sllidar_ros2 publishes /scan with frame_id "laser" -->
+  <joint name="laser_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser"/>
+    <origin xyz="${lidar_x_from_back - axle_from_back} ${lidar_y} ${lidar_height_from_floor - wheel_radius}"
+            rpy="0 0 ${lidar_yaw}"/>
+  </joint>
+
+  <link name="laser">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://waiter_description/meshes/laser_link.STL"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
 
   <!-- ===================== ros2_control ===================== -->
   <xacro:include filename="$(find waiter_description)/urdf/waiter_control.xacro"/>
